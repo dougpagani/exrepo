@@ -1,0 +1,26 @@
+Resolving merges:
+    - git ours
+    - git theirs
+    - git diff3
+    - git mergerestore
+
+# These do slightly different things
+git fetch; git merge 
+vs.
+git pull
+---> the merge annotations are slightly different
+---> git fetch is better, b/c it labels it with the ref
+
+
+git ours will always be "which branch am I checked out on?"
+
+# When doing merges 
+display cat <file-which-will-conflict>
+
+# Github will show commits like this: e3f33ee
+author: dougpagani dougpagani@users.noreply.github.com
+commiter: Github noreply@github.com
+
+# Github can edit files in realtime
+Github default titles: "Update file.txt"
+
